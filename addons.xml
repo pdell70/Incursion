@@ -130,19 +130,7 @@ Fixed search issue caused by character accents
 	</extension>
 </addon>
 
-<addon id="script.module.incursion" name="Incursion Module" version="1.19" provider-name="Incursion">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup4"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Incursion</summary>
-	</extension>
-</addon>
-
-<addon id="script.module.incursion" name="Incursion Module" version="1.18" provider-name="Incursion">
+<addon id="script.module.incursion" name="Incursion Module" version="1.20" provider-name="Incursion">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
