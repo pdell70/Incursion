@@ -48,7 +48,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.incursion" version="0.1.15" name="Incursion" provider-name="Incursion">
+<addon id="plugin.video.incursion" version="0.1.17" name="Incursion" provider-name="Incursion">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.incursion" />
@@ -79,16 +79,17 @@
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
-v0.1.15 (FEB-2018)
-Fixed "Trakt - Mark as Watched" Issues
-Added Trakt Bookmarks Function
-Added Auto Resume Option
-Trakt On Deck - Reversed to show last played first.
+v0.1.17 (APR-2018)
+Even more Scraper Fixes
+CFSCRAPE Fix
+Moderator Disabled
+Fixed Trakt On Deck Magical Dissapearing Act
+Fixed search issue caused by character accents
 		</news>
 	</extension>
 </addon>
 
-<addon id="plugin.video.watchnixtoons" name="WatchNixtoons" version="1.0.1" provider-name="Nixgates">
+<addon id="plugin.video.watchnixtoons" name="WatchNixtoons" version="1.0.3" provider-name="Nixgates">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" />
@@ -129,7 +130,7 @@ Trakt On Deck - Reversed to show last played first.
 	</extension>
 </addon>
 
-<addon id="script.module.incursion" name="Incursion Module" version="1.17" provider-name="Incursion">
+<addon id="script.module.incursion" name="Incursion Module" version="1.20" provider-name="Incursion">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
